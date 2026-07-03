@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Gastos</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="theme-color" content="#121212">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>💲 Mis Gastos</h1>
+</header>
+
+<main>
+
+<section class="resumen">
+
+<div class="card">
+<h3>Ingresos</h3>
+<p id="ingresos">$0</p>
+</div>
+
+<div class="card">
+<h3>Gastos</h3>
+<p id="gastos">$0</p>
+</div>
+
+<div class="card">
+<h3>Disponible</h3>
+<p id="disponible">$0</p>
+</div>
+
+</section>
+
+<section class="menu">
+
+<button id="btnFijos">
+💰
+<span>Gastos Fijos</span>
+</button>
+
+<button id="btnGenerales">
+🛒
+<span>Gastos Generales</span>
+</button>
+
+<button id="btnFer">
+👨
+<span>Gastos Fer</span>
+</button>
+
+<button id="btnNati">
+👩
+<span>Gastos Nati</span>
+</button>
+
+<button id="btnEstadisticas">
+📊
+<span>Estadísticas</span>
+</button>
+
+</section>
+
+</main>
+
+<button id="nuevoGasto" class="fab">
++
+</button>
+
+<script src="app.js"></script>
+
+</body>
+</html>
